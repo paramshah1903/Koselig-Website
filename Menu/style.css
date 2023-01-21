@@ -1,0 +1,45 @@
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+.links{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 8rem;
+    width: 100%;
+}
+label.logo{
+    padding: 0 10rem;
+}
+
+nav ul{
+    float: right;
+    margin-right: 2rem;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 8rem;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    font-size: 2.5rem;
+
+}
+
+.checkbtn{
+    font-size: 3rem;
+    color: black;
+    float: right;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    line-height: 8rem;
+    mar
+}

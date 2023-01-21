@@ -1,0 +1,588 @@
+ <div class="card card-special" id="card17">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Soul Food</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Roasted tomato soup with grilled cheese sandwich</h4>
+                  <p>
+                    Easy roasted tomato soup served with a simple, extra-cheesy
+                    grilled cheese sandwich is comfort food personified.
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Mushroom cappuccino</h4>
+                  <p>
+                    A comforting, wholesome and creamy mushroom soup with the
+                    goodness of button mushrooms and subtle flavors of garlic
+                    and pepper.
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Potato and leek soup</h4>
+                  <p>
+                    Potato leek soup, or potage parmentier, is a French classic.
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+        
+        <div class="card card-special" id="card5">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Sandwich & Toasts</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Cottage Cheese Sandwich</h4>
+                  <p>
+                    Paneer block marinated in Indian spies loaded with Crunchy
+                    fresh aragula and lolo roso and red cabbage colorful bell
+                    pepper, some cheese with toasted panini bread.
+                  </p>
+                </div>
+                <span>&#8377;260</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pesto Spinach Grilled Cheese</h4>
+                  <p>
+                    Butter toasted sourdough smotared with walnut pasto, loaded
+                    with fresh baby spinach, 3 cheeses and Italian herbs...
+                  </p>
+                </div>
+                <span>&#8377;320</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Avocado Smorrebrod</h4>
+                  <p>
+                    Sliced Avocado Cayered with a generous dollop of in house
+                    hummus topped with fresh crunchy cucumber, lettuce, aragula,
+                    tomoto, microgreens and some cheese & squeeze of a fresh
+                    lime with zingy sriracha & garlic butter.
+                  </p>
+                </div>
+                <span>&#8377;280</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pesto Paneer Sandwich</h4>
+                  <p>
+                    Butter toasted sourdough smotared wiht walnut pasto, loaded
+                    with fresh baby spinach, 3 cheeses and Italian herbs.
+                  </p>
+                </div>
+                <span>&#8377;320</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Guacamole Toast</h4>
+                  <p>Mashed Avocado, Tomato, Coriander</p>
+                </div>
+                <span>&#8377;350</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Beetroot Hummus Toast</h4>
+                  <p>
+                    Toasted Sourdough with beetroot hummus and micro greens.
+                  </p>
+                </div>
+                <span>&#8377;350</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Avocado Hummus Toast</h4>
+                  <p>
+                    Toasted Sourdough topped with sliced avocado, hummus, two
+                    cherry tomatoes seasoned with salt and
+                  </p>
+                </div>
+                <span>&#8377;350</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+        
+        <div class="card card-special" id="card12">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Little Plates</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Plasto Garlic Bread</h4>
+                  <p>Garlic bread with a twist of Pesto</p>
+                </div>
+                <span>&#8377;295</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Hot Burrata (KS)</h4>
+                  <p>
+                    Burrata baked with Romesco sauce which is a bold , zippy and
+                    full of roasted tomatoes and peppers flavor served with
+                    Garlicky cherry tomatoes, pesto and toasted bread
+                  </p>
+                </div>
+                <span>&#8377;425</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Mushroom Pate</h4>
+                  <p>
+                    Mushroom pate,Balsamic glaze, rocket leaf, over a baguette
+                  </p>
+                </div>
+                <span>&#8377;295</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Parmesan Truffle fries</h4>
+                  <p>
+                    Fries tossed in truffle oil and parmesan cheese served with
+                    garlic aioli
+                  </p>
+                </div>
+                <span>&#8377;250</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Smoky Fries</h4>
+                  <p>
+                    Salted fries served with our inhouse special smoked salsa
+                  </p>
+                </div>
+                <span>&#8377;225</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Mushroom puff with truffle cream sauce (KS)</h4>
+                  <p>
+                    Mushroom puff Pillows served with truffle cream sauce, and
+                    grilled mushrooms
+                  </p>
+                </div>
+                <span>&#8377;390</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>
+                    Pomegranate and dukkah spiced Roasted cauliflower with spicy
+                    yogurt (KS)
+                  </h4>
+                  <p>
+                    An unami of flavors, roasted cauliflower marinated in dukkah
+                    spice, orange juice , pomegranate molasses and served with
+                    spicy yogurt
+                  </p>
+                </div>
+                <span>&#8377;375</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Mediterranean Nachos (KS)</h4>
+                  <p>
+                    Baked Lavash,Spiced Tempered mushrooms,roasted chickpea
+                    cherry tomatoes, Pomegranate, hummus, feta, lettuce
+                  </p>
+                </div>
+                <span>&#8377;395</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Mezze platter(KS)</h4>
+                  <p>
+                    Hummus, Beetroot Hummus, baba ganoush ,Muhammara , pickled
+                    vegetables, olives,falafel balls, grape cheese
+                    ball,Tabbouleh salad,walnut,pitta bread, lavash sticks
+                  </p>
+                </div>
+                <span>&#8377;595</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Qesso Fundido (KS)</h4>
+                  <p>
+                    Queso Fundido translates to "melted cheese,"Melted Gooey , A
+                    skillet full of Gooey,bubbly cheese topped with smoked salsa
+                    served with tortilla chips baked Peri peri crispies
+                  </p>
+                </div>
+                <span>&#8377;425</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+
+     <div class="card card-special" id="card13">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Silician Pizza</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Grandma's Margarita</h4>
+                  <p>
+                    It's a simple Pizza topped with fresh mozzarella di
+                    bufala,cheddar, Basil and parmesan cheese
+                  </p>
+                </div>
+                <span>&#8377;425</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Greek</h4>
+                  <p>
+                    Sicilian Pizza topped with Zucchini, olives, onion ,cherry
+                    tomatoes, bell pepper,lettuce, feta, mozzarella di bufala,
+                    cheddar cheese
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Burrata</h4>
+                  <p>
+                    Sicilian Pizza topped with Cherry tomato,olives,rocket
+                    leaf,burrata , balsamic glaze,mozzarella di bufala, cheddar
+                  </p>
+                </div>
+                <span>&#8377;495</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Spinach dip fungi</h4>
+                  <p>
+                    Sicilian Pizza topped with Garlicky spinach, mushroom,
+                    ricotta cheese,mozzarella di bufala, cheddar cheese
+                  </p>
+                </div>
+                <span>&#8377;475</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pesto</h4>
+                  <p>
+                    Sicilian Pizza topped with Pesto, olives,sundried tomatoes,
+                    bell pepper, mozzarella di bufala, cheddar cheese
+                  </p>
+                </div>
+                <span>&#8377;475</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pizza bianca</h4>
+                  <p>
+                    Sicilian Pizza topped with White Parmesan sauce, broccoli,
+                    mushrooms , garlic spinach, mozzarella di bufala,cheddar,
+                    Parmesan cheese
+                  </p>
+                </div>
+                <span>&#8377;475</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Titae</h4>
+                  <p>
+                    Sicilian Pizza topped with Spinach, mushrooms, olives,
+                    jalapenos, onion, bell pepper, baby corn, chillies,
+                    mozzarella di bufala, cheddar cheese
+                  </p>
+                </div>
+                <span>&#8377;495</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Exotica</h4>
+                  <p>
+                    Sicilian Pizza topped with Paneer, bell pepper,onion, red
+                    paprika, olives, mushroom,baby corn, mozzarella di bufala,
+                    cheddar cheese
+                  </p>
+                </div>
+                <span>&#8377;495</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Yam 450</h4>
+                  <p>
+                    Sicilian Pizza topped with Purple yam, bell peppers,
+                    balsamic onion, feta, mozzarella di bufala, cheddar cheese
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+         <div class="card card-special" id="card14">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Pastas</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Arrabiata Pasta</h4>
+                  <p>
+                    Penne Pasta tossed in a spicy tomato sauce and exotic
+                    vegetables , a spicy firebomb
+                  </p>
+                </div>
+                <span>&#8377;395</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Beetroot pasta in herb and cream sauce</h4>
+                  <p>
+                    Pasta made with beetroot paste tossed in creamy herb sauce
+                    and exotic vegetables
+                  </p>
+                </div>
+                <span>&#8377;550</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Sriracha pasta in mushroom truffle sauce</h4>
+                  <p>
+                    Fusilli Pasta made with sriracha paste tossed in creamy
+                    truffle sauce , wild mushroom and shitake mushroom
+                  </p>
+                </div>
+                <span>&#8377;405</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pasta Puttanesca</h4>
+                  <p>
+                    Spaghetti alla puttanesca is an Italian pasta dish invented
+                    in Naples and made typically with tomatoes, olive oil,
+                    olives, chili flakes, capers, and garlic
+                  </p>
+                </div>
+                <span>&#8377;405</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Truffle my Can</h4>
+                  <p>
+                    Cannelloni stuffed with cheese spinach corn and served with
+                    pomodoro sauce and cream sauce topped with truffle oil
+                  </p>
+                </div>
+                <span>&#8377;575</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pesto ricotta spaghetti</h4>
+                  <p>
+                    Spaghetti pasta tossed in pesto with vegetables and garlic
+                    and topped with whipped ricotta cheese
+                  </p>
+                </div>
+                <span>&#8377;425</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+        <div class="card card-special" id="card15">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Burgers</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Gourmet Burger</h4>
+                  <p>
+                    Fusilli Pasta made with sriracha paste tossed in creamy
+                    truffle sauce , wild mushroom and shitake mushroom
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Tex Mex Burger</h4>
+                  <p>
+                    Mexican Patty made with corn, kidney beans, and zucchini
+                    topped with salsa, guacamole, jalapenos, tomatoes, lettuce,
+                    onion, cheese sauce
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Pad Thai Burger</h4>
+                  <p>
+                    Broccoli and Quinoa patty topped with noodles, Onion rings,
+                    bok choy,cherry tomatoes, olives cheese and tangy peanut
+                    sauce
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Funghi</h4>
+                  <p>An overload of 3 kinds of mushroom</p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Cottage cheese & Blue cheese Burger</h4>
+                  <p>
+                    Cottage cheese & Blue cheese patty topped with Pesto
+                    mayonnaise,spinach olives, grekins, cheese slice, tomatoes,
+                    onion
+                  </p>
+                </div>
+                <span>&#8377;450</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+        <div class="card card-special" id="card16">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Salads</h2>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Peach and Sumac mozzarella caprese with pesto</h4>
+                  <p>
+                    Peach , Sumac marinated Mozzarella,Rocket leaf, balsamic
+                    Glaze, pesto
+                  </p>
+                </div>
+                <span>&#8377;395</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>
+                    Grilled kale and Potato salad with green apple dressing
+                  </h4>
+                  <p>
+                    Grilled kale, Potatoes, lettuce, green apple, feta, walnut,
+                    with tangy green apple vinaigrette
+                  </p>
+                </div>
+                <span>&#8377;395</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>
+                    Roasted Cauliflower and chickpea Salad with tahini dressing
+                  </h4>
+                  <p>
+                    Roasted Cauliflower, chickpea, avocado, lettuce,
+                    Pomegranate, cucumber, onion, served with creamy tahini
+                    dressing
+                  </p>
+                </div>
+                <span>&#8377;350</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>Greek Salad</h4>
+                  <p>
+                    Mix Lettuce, Bell pepper,onion, olives, cherry
+                    tomatoes,cucumber,feta, greek vinaigrette
+                  </p>
+                </div>
+                <span>&#8377;350</span>
+              </div>
+              <div class="item">
+                <div class="item__content">
+                  <h4>
+                    Mexican quinoa salad with avocado sauce and smoked salsar
+                  </h4>
+                  <p>
+                    Mix Lettuce, quinoa,corn, bell pepper, olives, jalapeno,
+                    beans, avocado sauce, smoked salsa
+                  </p>
+                </div>
+                <span>&#8377;395</span>
+              </div>
+            </div>
+            <div class="card__face card__face--back back5"></div>
+          </div>
+        </div>
+
+        <div class="card" id="card11">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <h2>Desserts</h2>
+              <div class="item">
+                <h4>Fudgy Brownie</h4>
+                <span>&#8377;220 </span>
+              </div>
+              <div class="item">
+                <h4>Fudgy Brownie with ice cream</h4>
+                <span>&#8377;250</span>
+              </div>
+              <div class="item">
+                <h4>Coffee Chocolate Tart</h4>
+                <span>&#8377;200</span>
+              </div>
+              <div class="item">
+                <h4>Salted Caramel Chocolate Tart</h4>
+                <span>&#8377;250</span>
+              </div>
+              <div class="item">
+                <h4>Tiramisu Chocolate Tart</h4>
+                <span>&#8377;270</span>
+              </div>
+              <div class="item">
+                <h4>Apple Pie</h4>
+                <span>&#8377;240</span>
+              </div>
+              <div class="item">
+                <h4>Koselig Layered Cake</h4>
+                <span>&#8377;280</span>
+              </div>
+              <div class="item">
+                <h4>Cherry Chocolate Cake</h4>
+                <span>&#8377;300</span>
+              </div>
+              <div class="item">
+                <h4>Vanilla Sponge Cake</h4>
+                <span>&#8377;250</span>
+              </div>
+              <div class="item">
+                <h4>Mango Parfait</h4>
+                <span>&#8377;300</span>
+              </div>
+              <div class="item">
+                <h4>Blueberry Layered Cake(seasonal)</h4>
+                <span>&#8377;250</span>
+              </div>
+              <div class="item">
+                <h4>Mango Layered Cake(seasonal)</h4>
+                <span>&#8377;300</span>
+              </div>
+            </div>
+
+            <div class="card__face card__face--back"></div>
+          </div>
+        </div>
+       
+       

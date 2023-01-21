@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page</title>
+  <script src="https://kit.fontawesome.com/53e1a8cf67.js" crossorigin="anonymous"></script>
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Tangerine:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="favicon.ico" rel="icon">
+
+  <!-- scrollbar -->
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: .5rem;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #f6eddd;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #332421;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #CAAD8C;
+    }
+  </style>
+
+
+</head>
+
+<body onload="myFunction()">
+  <div id="loading">
+
+  </div>
+  <!-- <header class="header">
+    <nav class="nav">
+      <img src="logo.png" alt="logo" class="nav__logo" />
+
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">About Us</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Menu</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header> -->
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark nav">
+    <a class="navbar-brand" href=""><img src="logo.png" alt="logo" class="nav__logo" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto nav__links">
+            <li class="nav-item nav__item">
+                <a class="nav-link nav__link" href="">Home</a>
+            </li>
+            <li class="nav-item nav__item">
+                <a class="nav-link nav__link" href="">About Us</a>
+            </li>
+            <li class="nav-item nav__item">
+                <a class="nav-link nav__link" href="">Menu</a>
+            </li>
+            <li class="nav-item nav__item">
+                <a class="nav-link nav__link" href="">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav> -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark nav">
+    <a class="navbar-brand" href=""><img src="logo.png" alt="logo" class="nav__logo" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ms-auto nav__links">
+        <li class="nav-item nav__item">
+          <a class="nav-link nav__link" href="">Home</a>
+        </li>
+        <li class="nav-item nav__item">
+          <a class="nav-link nav__link" href="">About Us</a>
+        </li>
+        <li class="nav-item nav__item">
+          <a class="nav-link nav__link" href="">Menu</a>
+        </li>
+        <li class="nav-item nav__item">
+          <a class="nav-link nav__link" href="">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+  <nav class="nav--header">
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars icon"></i>
+    </label>
+    <label class="logo--nav"><img src="logo.png" class="logo--nav" /></label>
+    <ul class="links nav__links">
+      <li class="nav__item">
+        <a href="../landing page/index.html" class="nav__link">Home</a>
+      </li>
+      <li class="nav__item"><a href="../About/about.html" class="nav__link">About Us</a></li>
+      <li class="nav__item"><a href="../Menu/index.html" class="nav__link">Menu</a></li>
+      <li class="nav__item">
+        <a href="../Contact/contact.html" class="nav__link">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade img">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="chairs.png" class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title" style="font-size: 10rem; color: black;">Koselig</h1>
+          <p class="hashtag" style="color: black;">#weservefood</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipPK9EoR9cF97Idb5EghTVjDTxTiUSZaMnYl2D-f=s1360-w1360-h1020"
+          class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title" style="font-size: 10rem;">Koselig</h1>
+          <p class="hashtag">#weservefood</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOUUz2rLrQ18McCQshLIjSr6CjcaRyqAhs45faZ=s1360-w1360-h1020"
+          class="d-block w-100 h-100" style="-webkit-transform: scaleX(-1);
+          transform: scaleX(-1);" alt="..." />
+        <div class="carousel-caption d-none d-md-block ">
+          <h1 class="title" style="font-size: 10rem;">Koselig</h1>
+          <p class="hashtag">#weservefood</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="food.jpeg" class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title" style="font-size: 10rem;">Koselig</h1>
+          <p class="hashtag">#weservefood</p>
+        </div> 
+      </div>
+
+      <div class="carousel-item">
+        <img src="1.jpg" class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title" style="font-size: 10rem;">Koselig</h1>
+          <p class="hashtag">#weservefood</p>
+        </div> 
+      </div>
+      
+      <div class="carousel-item">
+        <img src="food2.png" class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title" style="font-size: 10rem;">Koselig</h1>
+          <p class="hashtag">#weservefood</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipPpHRlGssZvmdjDMhN0gESD6ktwxfMDyxAQjwjH=s1360-w1360-h1020"
+          class="d-block w-100 h-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="title" style="font-size: 10rem; color: white;">Koselig</h1>
+          <p class="hashtag" style="color: white;">#weservefood</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+
+  <hr class="divide">
+  <section id="popular__dishes" class="popular__dishes">
+    <div class="popular__dishes--headerbox">
+      <h1 class="popular__dishes--header">Our Popular Dishes</h1>
+    </div>
+
+    <div class="dish" id="dish1">
+      <div class="dish__img">
+        <img src="cappuccino.jpeg" />
+      </div>
+      <div class="dish__content--container">
+        <div class="dish__content">
+          <h2>MUSHROOM CAPPUCCINO</h2>
+          <p>
+            A comforting, wholesome and creamy mushroom soup with the goodness of button mushrooms and subtle flavors of
+            garlic and pepper.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dish" id="dish2">
+      <div class="dish__content--container">
+        <div class="dish__content moveRight">
+          <h2>GOURMET BURGER</h2>
+          <p>
+            These are not burgers. These are monster burgers.
+          </p>
+        </div>
+      </div>
+      <div class="dish__img">
+        <img src="burger.jpeg" />
+      </div>
+    </div>
+
+
+    <div class="dish" id="dish3">
+      <div class="dish__img">
+        <img src="pasta.jpeg" />
+      </div>
+      <div class="dish__content--container">
+        <div class="dish__content">
+          <h2>PASTA PUTTANESCA</h2>
+          <p>
+            Spaghetti alla puttanesca is an italian pasta dish invented in naples and made typically with tomatoes,
+            olive oil, olives, chili flakes, capers, and garlic.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dish" id="dish4">
+      <div class="dish__content--container">
+        <div class="dish__content moveRight">
+          <h2>GRILLED KALE AND POTATO SALAD</h2>
+          <p>
+            Grilled kale, potates, lettuce, green apple, feta, walnut, with tangy green apple vinaigrette.
+          </p>
+        </div>
+      </div>
+      <div class="dish__img">
+        <img src="salad.jpeg" />
+      </div>
+    </div>
+
+    <div class="dish" id="dish5">
+      <div class="dish__img">
+        <img src="nachos.jpeg" />
+      </div>
+      <div class="dish__content--container">
+        <div class="dish__content">
+          <h2>MEDITERRANEAN NACHOS</h2>
+          <p>
+            Baked lavash. Spiced tempered mushrooms. Roasted chickpea cherry tomatoes, pomegranate, hummus, feta,
+            lettuce.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dish" id="dish6">
+      <div class="dish__content--container">
+        <div class="dish__content moveRight">
+          <h2>HOT BURRATA</h2>
+          <p>
+            Burrata baked with romesco sauce which is a<br> bold, zippy and full of roasted tomatoes.
+          </p>
+        </div>
+      </div>
+      <div class="dish__img">
+        <img src="burrata.jpeg" />
+      </div>
+    </div>
+
+    <div class="dish" id="dish7">
+      <div class="dish__img">
+        <img src="beetroot pasta.jpeg" />
+      </div>
+      <div class="dish__content--container">
+        <div class="dish__content">
+          <h2>BEETROOT PASTA</h2>
+          <p>
+            Pasta made with beetroot paste tossed in creamy herb sauce and exotic vegetables.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dish" id="dish8">
+      <div class="dish__content--container">
+        <div class="dish__content moveRight">
+          <h2>PAD THAI BURGER</h2>
+          <p>
+            Brocolli and quinoa patty topped with noodles, onion rings, bok choy, cherry tomatoes, olives cheese and
+            tangy peanut sauce.
+          </p>
+        </div>
+      </div>
+      <div class="dish__img">
+        <img src="pad thai.jpeg" />
+      </div>
+    </div>
+
+    <div class="dish" id="dish9">
+      <div class="dish__img">
+        <img src="sandwich.jpeg" />
+      </div>
+      <div class="dish__content--container">
+        <div class="dish__content">
+          <h2>TOMATO SOUP & GRILLED CHEESE SANDWICH</h2>
+          <p>
+            Easy roasted tomato soup served with a simple. Extra - cheesy grilled cheese sandwich is comfort food
+            personified. </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <div class="insta-grid">
+    <h1 class="insta-text">Galleriet</h1>
+    <div class="grid-item">
+      <a href="https://www.instagram.com/p/CWvR5iaMyGI/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-1.jpg"></a>
+      <a href="https://www.instagram.com/p/CZjIT58huHs/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-4.jpg"></a>
+      <a href="https://www.instagram.com/p/CUee8_2M7i7/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="logo"
+          src="img-3.png"></a>
+      <a href="https://www.instagram.com/p/CXDQsPus5Cj/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-2.jpg"></a>
+      <a href="https://www.instagram.com/p/CZ6nuj3sdu-/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-5.jpg"></a>
+    </div>
+    <div class="grid-item">
+      <a href="https://www.instagram.com/p/CUee1uHFsiP/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-6.jpg"></a>
+      <a href="https://www.instagram.com/p/CW5Dey2MW8i/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-7.jpg"></a>
+      <a href="https://www.instagram.com/p/CW5Dey2MW8i/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-8.jpg"></a>
+      <a href="https://www.instagram.com/p/CW5Dey2MW8i/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-9.jpg"></a>
+      <a href="https://www.instagram.com/p/CUee1uHFsiP/?igshid=OGQ2MjdiOTE=" target="_blank"><img class="item"
+          src="img-10.jpg"></a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="col-1 col">
+      <div class="col--header">
+        <h3>ADDRESS</h3>
+      </div>
+      <div>
+        <div class="col-1--content">
+          <p>
+            1st Floor 104 International Business Center,<br />
+            Piplod Main Road<br />
+            Surat,<br />Gujarat<br />
+            395007
+          </p>
+        </div>
+      </div>
+      <div class="icons">
+        <a href="https://www.facebook.com/koseligsurat/">
+          <i class="fa-brands fa-facebook-f icon"></i></a>
+        <a href="https://www.instagram.com/koseligcoffee/"><i class="fa-brands fa-instagram icon"></i></a>
+      </div>
+    </div>
+    <div class="col-2 col">
+      <h3 class="col--header">GET NEWS AND UPDATES</h3>
+      <form>
+        <input type="email" id="checkbox" placeholder="Your email address" />
+        <button type="submit" id="button">Sign up</button>
+        <p id="texto"></p>
+      </form>
+    </div>
+    <div class="col-3 col">
+      <h3 class="col--header">HOURS</h3>
+      <p>11 AM - 11:30 PM</p>
+      <p>All Days</p>
+    </div>
+    <div class="col-4 col">
+      <h3 class="col--header">FOLLOW US ON:</h3>
+      <img src="qrcode.png" alt="qr" />
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="Images/favicon.ico" rel="icon" />
+
+    <script
+      src="https://kit.fontawesome.com/53e1a8cf67.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MENU</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 0.5rem;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #f6eddd;
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #332421;
+        border-radius: 10px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #caad8c;
+      }
+    </style>
+  </head>
+
+  <body onload="myFunction()">
+    <div id="loading">
+
+    </div>
+    <!-- section 1 -->
+    <div class="contact-img">
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top nav">
+      <a class="navbar-brand" href=""><img src="logo.png" alt="logo" class="nav__logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto nav__links">
+          <li class="nav-item nav__item">
+            <a class="nav-link nav__link" href="">Home</a>
+          </li>
+          <li class="nav-item nav__item">
+            <a class="nav-link nav__link" href="">About Us</a>
+          </li>
+          <li class="nav-item nav__item">
+            <a class="nav-link nav__link" href="">Menu</a>
+          </li>
+          <li class="nav-item nav__item">
+            <a class="nav-link nav__link" href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+      <nav class="nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars icon"></i>
+        </label>
+        <label class="logo"><img src="logo.png" class="logo" /></label>
+        <ul class="links nav__links">
+          <li class="nav__item">
+            <a href="../landing page/index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item"><a href="../About/about.html" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="../Menu/index.html" class="nav__link">Menu</a></li>
+          <li class="nav__item">
+            <a href="../Contact/contact.html" class="nav__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contact-text__container">
+        <h1 class="contact-text">Menu</h1>
+      </div>
+    </div>
+    <div class="menu-body">
+      <hr class="divide" />
+      <div class="dropdown special">
+        <div class="select">
+          <span class="selected">Appetizers & Drinks</span>
+          <div class="caret"></div>
+        </div>
+        <ul class="menu">
+          <li class="active op1">Appetizers & Drinks</li>
+          <li class="op2">Main Course</li>
+          <li class="op3">Desserts</li>
+        </ul>
+      </div>
+
+      <div class="snacks" id="#snacks">
+        <h1 class="snacks__header drinks">Appetizers & Drinks</h1>
+
+        <div class="flex-parent">
+          <div class="flex1">
+            <div class="card" id="card1">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2 class="title">Hot Coffee</h2>
+                  <div class="item">
+                    <h4>Cortado</h4>
+                    <span>&#8377;180 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Caramel Cortado</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Mocardo</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Caramel Mocardo</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Capuccinno</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Flat White</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Latte</h4>
+                    <span>&#8377;210</span>
+                  </div>
+                  <div class="item">
+                    <h4>Hazelnut Latte</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Caramel Latte</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back2"></div>
+              </div>
+            </div>
+
+            <div class="card" id="card4">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Water & Coffee</h2>
+                  <div class="item">
+                    <h4>Espresso</h4>
+                    <span>&#8377;150 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Iced Espresso</h4>
+                    <span>&#8377;160</span>
+                  </div>
+                  <div class="item">
+                    <h4>Americano</h4>
+                    <span>&#8377;150</span>
+                  </div>
+                  <div class="item">
+                    <h4>Iced Americano</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Risteretto</h4>
+                    <span>&#8377;140</span>
+                  </div>
+                  <div class="item">
+                    <h4>Lungo</h4>
+                    <span>&#8377;140</span>
+                  </div>
+                  <div class="item">
+                    <h4>Freddo</h4>
+                    <span>&#8377;150</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back4"></div>
+              </div>
+            </div>
+            <div class="card" id="card19">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Signature Drinks</h2>
+                  <div class="item">
+                    <h4>Koselig Old Fashioned</h4>
+                    <span>&#8377;200 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Hygge Freddo</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Orange Americano</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Lavender Coffee Tonic</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Blue Pea Coffee Tonic</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Un-sangria</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Tropical Hygge</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Cascara Tea</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Cold Chocolate</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back19"></div>
+              </div>
+            </div>
+
+            <div class="card" id="card21">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Masala Tea</h2>
+                  <div class="item">
+                    <h4>Hibiscus Lemongrass Tea Pot</h4>
+                    <span>&#8377;300 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Chamomile Tea Pot</h4>
+                    <span>&#8377;300</span>
+                  </div>
+                  <div class="item">
+                    <h4>Lemon Tea</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Peach Tea</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back21"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex2">
+            <div class="card" id="card2">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Hot Coffee</h2>
+                  <div class="item">
+                    <h4>Spiced Honey Latte</h4>
+                    <span>&#8377;230 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Honey Turmeric Latte</h4>
+                    <span>&#8377;230</span>
+                  </div>
+                  <div class="item">
+                    <h4>Mocha</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Milk Chocolate Mocha</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Sea Salt Mocha</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Caramel Mocha</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Mint Mocha</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Salted Caramel Latte</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Vanilla Latte</h4>
+                    <span>&#8377;180</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back2"></div>
+              </div>
+            </div>
+            <div class="card" id="card18">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Slow Coffee &Tonic</h2>
+                  <div class="item">
+                    <h4>V60</h4>
+                    <span>&#8377;220 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Aeropress</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Origami</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Clever Dripper</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Vietnamese Filter</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Coffee Tonic (Espresso/Cold Brew)</h4>
+                    <span>&#8377;210</span>
+                  </div>
+                  <div class="item">
+                    <h4>Ginger Ale Coffee (Espresso/Cold Brew)</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back18"></div>
+              </div>
+            </div>
+
+            <div class="card" id="card20">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Hot Chocolate</h2>
+                  <div class="item">
+                    <h4>Classic Hot Chocolate</h4>
+                    <span>&#8377;230 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Koselig Hot Chocolate</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Sea Salt Chocolate</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Espresso Hot Chocolate</h4>
+                    <span>&#8377;280</span>
+                  </div>
+                  <div class="item">
+                    <h4>Christmas Hug</h4>
+                    <span>&#8377;260</span>
+                  </div>
+                  <div class="item">
+                    <h4>Marshmallow</h4>
+                    <span>&#8377;10</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back20"></div>
+              </div>
+            </div>
+
+            <div class="card" id="card9">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Bagel</h2>
+                  <div class="item">
+                    <h4>Tomato Basil Bagel</h4>
+                    <span>&#8377;220 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Guacamole Bagel</h4>
+                    <span>&#8377;320</span>
+                  </div>
+                  <div class="item">
+                    <h4>Avocado Cream Cheese Bagel</h4>
+                    <span>&#8377;270</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back9"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex3">
+            <div class="card" id="card3">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Cold Coffee</h2>
+                  <div class="item">
+                    <h4>Classic Cold Coffee</h4>
+                    <span>&#8377;220 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Caramel Cold Coffee</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Hazelnut Cold Coffee</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Iced Latte</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Koselig Iced Latte</h4>
+                    <span>&#8377;230</span>
+                  </div>
+                  <div class="item">
+                    <h4>Caramel Iced Latte</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Iced Mocha</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Iced Cortado</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back3"></div>
+              </div>
+            </div>
+            <div class="card" id="card22">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Frappes & Shakes</h2>
+                  <div class="item">
+                    <h4>Classic</h4>
+                    <span>&#8377;230 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Biscoff</h4>
+                    <span>&#8377;230</span>
+                  </div>
+                  <div class="item">
+                    <h4>Chocolate</h4>
+                    <span>&#8377;230</span>
+                  </div>
+                  <div class="item">
+                    <h4>Nutella</h4>
+                    <span>&#8377;230</span>
+                  </div>
+                  <div class="item">
+                    <h4>Strawberry Cheesecake</h4>
+                    <span>&#8377;295</span>
+                  </div>
+                  <div class="item">
+                    <h4>Strawberry Cheesecake</h4>
+                    <span>&#8377;295</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back22"></div>
+              </div>
+            </div>
+            <div class="card" id="card6">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Coolers</h2>
+                  <div class="item">
+                    <h4>Lime Light</h4>
+                    <span>&#8377;180 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Coffee Mojitto</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Blue Pea Lemonade</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Sun Downer</h4>
+                    <span>&#8377;230</span>
+                  </div>
+                  <div class="item">
+                    <h4>Apple Litchi Mocktail</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Jolly Rancher</h4>
+                    <span>&#8377;220</span>
+                  </div>
+                  <div class="item">
+                    <h4>Summer Twilight</h4>
+                    <span>&#8377;300</span>
+                  </div>
+                  <div class="item">
+                    <h4>Orange Cinnamon</h4>
+                    <span>&#8377;280</span>
+                  </div>
+                  <div class="item">
+                    <h4>Passionfruit</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Fresh Juice</h4>
+                    <span>&#8377;160</span>
+                  </div>
+                </div>
+
+                <div class="card__face card__face--back back6"></div>
+              </div>
+            </div>
+
+            <div class="card" id="card8">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Smoothies</h2>
+                  <div class="item">
+                    <h4>Smoothie Bowl</h4>
+                    <span>&#8377;450 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Smoothie Cup</h4>
+                    <span>&#8377;300</span>
+                  </div>
+                  <div class="item">
+                    <h4>Smoothie</h4>
+                    <span>&#8377;270</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back8"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mains" id="#main">
+        <h1 class="mains__header snacks__header main_course">Main Course</h1>
+        <div class="flex-parent">
+          <div class="flex1">
+            <div class="card card-special" id="card17">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Soul Food</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Roasted tomato soup with grilled cheese sandwich</h4>
+                      <p>
+                        Easy roasted tomato soup served with a simple,
+                        extra-cheesy grilled cheese sandwich is comfort food
+                        personified.
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Mushroom cappuccino</h4>
+                      <p>
+                        A comforting, wholesome and creamy mushroom soup with
+                        the goodness of button mushrooms and subtle flavors of
+                        garlic and pepper.
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Potato and leek soup</h4>
+                      <p>
+                        Potato leek soup, or potage parmentier, is a French
+                        classic.
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back17"></div>
+              </div>
+            </div>
+
+            <div class="card card-special" id="card5">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Sandwich & Toasts</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Cottage Cheese Sandwich</h4>
+                      <p>
+                        Paneer block marinated in Indian spies loaded with
+                        Crunchy fresh aragula and lolo roso and red cabbage
+                        colorful bell pepper, some cheese with toasted panini
+                        bread.
+                      </p>
+                    </div>
+                    <span>&#8377;260</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pesto Spinach Grilled Cheese</h4>
+                      <p>
+                        Butter toasted sourdough smotared with walnut pasto,
+                        loaded with fresh baby spinach, 3 cheeses and Italian
+                        herbs...
+                      </p>
+                    </div>
+                    <span>&#8377;320</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Avocado Smorrebrod</h4>
+                      <p>
+                        Sliced Avocado Cayered with a generous dollop of in
+                        house hummus topped with fresh crunchy cucumber,
+                        lettuce, aragula, tomoto, microgreens and some cheese &
+                        squeeze of a fresh lime with zingy sriracha & garlic
+                        butter.
+                      </p>
+                    </div>
+                    <span>&#8377;280</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pesto Paneer Sandwich</h4>
+                      <p>
+                        Butter toasted sourdough smotared wiht walnut pasto,
+                        loaded with fresh baby spinach, 3 cheeses and Italian
+                        herbs.
+                      </p>
+                    </div>
+                    <span>&#8377;320</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Guacamole Toast</h4>
+                      <p>Mashed Avocado, Tomato, Coriander</p>
+                    </div>
+                    <span>&#8377;350</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Beetroot Hummus Toast</h4>
+                      <p>
+                        Toasted Sourdough with beetroot hummus and micro greens.
+                      </p>
+                    </div>
+                    <span>&#8377;350</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Avocado Hummus Toast</h4>
+                      <p>
+                        Toasted Sourdough topped with sliced avocado, hummus,
+                        two cherry tomatoes seasoned with salt and
+                      </p>
+                    </div>
+                    <span>&#8377;350</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back5"></div>
+              </div>
+            </div>
+
+            <div class="card card-special" id="card15">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Burgers</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Gourmet Burger</h4>
+                      <p>
+                        Fusilli Pasta made with sriracha paste tossed in creamy
+                        truffle sauce , wild mushroom and shitake mushroom
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Tex Mex Burger</h4>
+                      <p>
+                        Mexican Patty made with corn, kidney beans, and zucchini
+                        topped with salsa, guacamole, jalapenos, tomatoes,
+                        lettuce, onion, cheese sauce
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pad Thai Burger</h4>
+                      <p>
+                        Broccoli and Quinoa patty topped with noodles, Onion
+                        rings, bok choy,cherry tomatoes, olives cheese and tangy
+                        peanut sauce
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Funghi</h4>
+                      <p>An overload of 3 kinds of mushroom</p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Cottage cheese & Blue cheese Burger</h4>
+                      <p>
+                        Cottage cheese & Blue cheese patty topped with Pesto
+                        mayonnaise,spinach olives, grekins, cheese slice,
+                        tomatoes, onion
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back15"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex2">
+            <div class="card card-special" id="card16">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Salads</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Peach and Sumac mozzarella caprese with pesto</h4>
+                      <p>
+                        Peach , Sumac marinated Mozzarella,Rocket leaf, balsamic
+                        Glaze, pesto
+                      </p>
+                    </div>
+                    <span>&#8377;395</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>
+                        Grilled kale and Potato salad with green apple dressing
+                      </h4>
+                      <p>
+                        Grilled kale, Potatoes, lettuce, green apple, feta,
+                        walnut, with tangy green apple vinaigrette
+                      </p>
+                    </div>
+                    <span>&#8377;395</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>
+                        Roasted Cauliflower and chickpea Salad with tahini
+                        dressing
+                      </h4>
+                      <p>
+                        Roasted Cauliflower, chickpea, avocado, lettuce,
+                        Pomegranate, cucumber, onion, served with creamy tahini
+                        dressing
+                      </p>
+                    </div>
+                    <span>&#8377;350</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Greek Salad</h4>
+                      <p>
+                        Mix Lettuce, Bell pepper,onion, olives, cherry
+                        tomatoes,cucumber,feta, greek vinaigrette
+                      </p>
+                    </div>
+                    <span>&#8377;350</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>
+                        Mexican quinoa salad with avocado sauce and smoked
+                        salsar
+                      </h4>
+                      <p>
+                        Mix Lettuce, quinoa,corn, bell pepper, olives, jalapeno,
+                        beans, avocado sauce, smoked salsa
+                      </p>
+                    </div>
+                    <span>&#8377;395</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back16"></div>
+              </div>
+            </div>
+
+            <div class="card card-special" id="card13">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Silician Pizza</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Grandma's Margarita</h4>
+                      <p>
+                        It's a simple Pizza topped with fresh mozzarella di
+                        bufala,cheddar, Basil and parmesan cheese
+                      </p>
+                    </div>
+                    <span>&#8377;425</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Greek</h4>
+                      <p>
+                        Sicilian Pizza topped with Zucchini, olives, onion
+                        ,cherry tomatoes, bell pepper,lettuce, feta, mozzarella
+                        di bufala, cheddar cheese
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Burrata</h4>
+                      <p>
+                        Sicilian Pizza topped with Cherry tomato,olives,rocket
+                        leaf,burrata , balsamic glaze,mozzarella di bufala,
+                        cheddar
+                      </p>
+                    </div>
+                    <span>&#8377;495</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Spinach dip fungi</h4>
+                      <p>
+                        Sicilian Pizza topped with Garlicky spinach, mushroom,
+                        ricotta cheese,mozzarella di bufala, cheddar cheese
+                      </p>
+                    </div>
+                    <span>&#8377;475</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pesto</h4>
+                      <p>
+                        Sicilian Pizza topped with Pesto, olives,sundried
+                        tomatoes, bell pepper, mozzarella di bufala, cheddar
+                        cheese
+                      </p>
+                    </div>
+                    <span>&#8377;475</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pizza bianca</h4>
+                      <p>
+                        Sicilian Pizza topped with White Parmesan sauce,
+                        broccoli, mushrooms , garlic spinach, mozzarella di
+                        bufala,cheddar, Parmesan cheese
+                      </p>
+                    </div>
+                    <span>&#8377;475</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Titae</h4>
+                      <p>
+                        Sicilian Pizza topped with Spinach, mushrooms, olives,
+                        jalapenos, onion, bell pepper, baby corn, chillies,
+                        mozzarella di bufala, cheddar cheese
+                      </p>
+                    </div>
+                    <span>&#8377;495</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Exotica</h4>
+                      <p>
+                        Sicilian Pizza topped with Paneer, bell pepper,onion,
+                        red paprika, olives, mushroom,baby corn, mozzarella di
+                        bufala, cheddar cheese
+                      </p>
+                    </div>
+                    <span>&#8377;495</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Yam 450</h4>
+                      <p>
+                        Sicilian Pizza topped with Purple yam, bell peppers,
+                        balsamic onion, feta, mozzarella di bufala, cheddar
+                        cheese
+                      </p>
+                    </div>
+                    <span>&#8377;450</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back13"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex3">
+            <div class="card card-special" id="card12">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Little Plates</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Plasto Garlic Bread</h4>
+                      <p>Garlic bread with a twist of Pesto</p>
+                    </div>
+                    <span>&#8377;295</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Hot Burrata (KS)</h4>
+                      <p>
+                        Burrata baked with Romesco sauce which is a bold , zippy
+                        and full of roasted tomatoes and peppers flavor served
+                        with Garlicky cherry tomatoes, pesto and toasted bread
+                      </p>
+                    </div>
+                    <span>&#8377;425</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Mushroom Pate</h4>
+                      <p>
+                        Mushroom pate,Balsamic glaze, rocket leaf, over a
+                        baguette
+                      </p>
+                    </div>
+                    <span>&#8377;295</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Parmesan Truffle fries</h4>
+                      <p>
+                        Fries tossed in truffle oil and parmesan cheese served
+                        with garlic aioli
+                      </p>
+                    </div>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Smoky Fries</h4>
+                      <p>
+                        Salted fries served with our inhouse special smoked
+                        salsa
+                      </p>
+                    </div>
+                    <span>&#8377;225</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Mushroom puff with truffle cream sauce (KS)</h4>
+                      <p>
+                        Mushroom puff Pillows served with truffle cream sauce,
+                        and grilled mushrooms
+                      </p>
+                    </div>
+                    <span>&#8377;390</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>
+                        Pomegranate and dukkah spiced Roasted cauliflower with
+                        spicy yogurt (KS)
+                      </h4>
+                      <p>
+                        An unami of flavors, roasted cauliflower marinated in
+                        dukkah spice, orange juice , pomegranate molasses and
+                        served with spicy yogurt
+                      </p>
+                    </div>
+                    <span>&#8377;375</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Mediterranean Nachos (KS)</h4>
+                      <p>
+                        Baked Lavash,Spiced Tempered mushrooms,roasted chickpea
+                        cherry tomatoes, Pomegranate, hummus, feta, lettuce
+                      </p>
+                    </div>
+                    <span>&#8377;395</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Mezze platter(KS)</h4>
+                      <p>
+                        Hummus, Beetroot Hummus, baba ganoush ,Muhammara ,
+                        pickled vegetables, olives,falafel balls, grape cheese
+                        ball,Tabbouleh salad,walnut,pitta bread, lavash sticks
+                      </p>
+                    </div>
+                    <span>&#8377;595</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Qesso Fundido (KS)</h4>
+                      <p>
+                        Queso Fundido translates to "melted cheese,"Melted Gooey
+                        , A skillet full of Gooey,bubbly cheese topped with
+                        smoked salsa served with tortilla chips baked Peri peri
+                        crispies
+                      </p>
+                    </div>
+                    <span>&#8377;425</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back12"></div>
+              </div>
+            </div>
+
+            <div class="card card-special" id="card14">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Pastas</h2>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Arrabiata Pasta</h4>
+                      <p>
+                        Penne Pasta tossed in a spicy tomato sauce and exotic
+                        vegetables , a spicy firebomb
+                      </p>
+                    </div>
+                    <span>&#8377;395</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Beetroot pasta in herb and cream sauce</h4>
+                      <p>
+                        Pasta made with beetroot paste tossed in creamy herb
+                        sauce and exotic vegetables
+                      </p>
+                    </div>
+                    <span>&#8377;550</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Sriracha pasta in mushroom truffle sauce</h4>
+                      <p>
+                        Fusilli Pasta made with sriracha paste tossed in creamy
+                        truffle sauce , wild mushroom and shitake mushroom
+                      </p>
+                    </div>
+                    <span>&#8377;405</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pasta Puttanesca</h4>
+                      <p>
+                        Spaghetti alla puttanesca is an Italian pasta dish
+                        invented in Naples and made typically with tomatoes,
+                        olive oil, olives, chili flakes, capers, and garlic
+                      </p>
+                    </div>
+                    <span>&#8377;405</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Truffle my Can</h4>
+                      <p>
+                        Cannelloni stuffed with cheese spinach corn and served
+                        with pomodoro sauce and cream sauce topped with truffle
+                        oil
+                      </p>
+                    </div>
+                    <span>&#8377;575</span>
+                  </div>
+                  <div class="item">
+                    <div class="item__content">
+                      <h4>Pesto ricotta spaghetti</h4>
+                      <p>
+                        Spaghetti pasta tossed in pesto with vegetables and
+                        garlic and topped with whipped ricotta cheese
+                      </p>
+                    </div>
+                    <span>&#8377;425</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back14"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="desserts" id="desserts">
+        <h1 class="desserts__header snacks__header dessert">Desserts</h1>
+        <div class="flex-parent">
+          <div class="flex1">
+            <div class="card" id="card7">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Cookies</h2>
+                  <div class="item">
+                    <h4>Butter Cookie</h4>
+                    <span>&#8377;40 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Dark Chocolate Cookie</h4>
+                    <span>&#8377;100</span>
+                  </div>
+                  <div class="item">
+                    <h4>Oats Chocolate Cookie</h4>
+                    <span>&#8377;120</span>
+                  </div>
+                  <div class="item">
+                    <h4>Oats Jaggery Cookie</h4>
+                    <span>&#8377;120</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back7"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex2">
+            <div class="card" id="card11">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Desserts</h2>
+                  <div class="item">
+                    <h4>Fudgy Brownie</h4>
+                    <span>&#8377;220 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Fudgy Brownie with ice cream</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Coffee Chocolate Tart</h4>
+                    <span>&#8377;200</span>
+                  </div>
+                  <div class="item">
+                    <h4>Salted Caramel Chocolate Tart</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Tiramisu Chocolate Tart</h4>
+                    <span>&#8377;270</span>
+                  </div>
+                  <div class="item">
+                    <h4>Apple Pie</h4>
+                    <span>&#8377;240</span>
+                  </div>
+                  <div class="item">
+                    <h4>Koselig Layered Cake</h4>
+                    <span>&#8377;280</span>
+                  </div>
+                  <div class="item">
+                    <h4>Cherry Chocolate Cake</h4>
+                    <span>&#8377;300</span>
+                  </div>
+                  <div class="item">
+                    <h4>Vanilla Sponge Cake</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Mango Parfait</h4>
+                    <span>&#8377;300</span>
+                  </div>
+                  <div class="item">
+                    <h4>Blueberry Layered Cake(seasonal)</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Mango Layered Cake(seasonal)</h4>
+                    <span>&#8377;300</span>
+                  </div>
+                </div>
+
+                <div class="card__face card__face--back back11"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex3">
+            <div class="card" id="card10">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <h2>Croissant</h2>
+                  <div class="item">
+                    <h4>Butter Croissant</h4>
+                    <span>&#8377;230 </span>
+                  </div>
+                  <div class="item">
+                    <h4>Tomato Basil Croissant</h4>
+                    <span>&#8377;250</span>
+                  </div>
+                  <div class="item">
+                    <h4>Pain Au Chocolate</h4>
+                    <span>&#8377;270</span>
+                  </div>
+                </div>
+                <div class="card__face card__face--back back10"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="col-1 col">
+        <div class="col--header">
+          <h3>ADDRESS</h3>
+        </div>
+        <div>
+          <div class="col-1--content">
+            <p>
+              1st Floor 104 International Business Center,<br />
+              Piplod Main Road<br />
+              Surat,<br />Gujarat<br />
+              395007
+            </p>
+          </div>
+        </div>
+        <div class="icons">
+          <a href="https://www.facebook.com/koseligsurat/">
+            <i class="fa-brands fa-facebook-f icon"></i
+          ></a>
+          <a href="https://www.instagram.com/koseligcoffee/"
+            ><i class="fa-brands fa-instagram icon"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-2 col">
+        <h3 class="col--header">GET NEWS AND UPDATES</h3>
+        <form>
+          <input type="email" placeholder="Your email address" />
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+      <div class="col-3 col">
+        <h3 class="col--header">HOURS</h3>
+        <p>11 AM - 11:30 PM</p>
+        <p>ALL WORKING DAYS</p>
+      </div>
+      <div class="col-4 col">
+        <h3 class="col--header">FOLLOW US ON:</h3>
+        <img src="qrcode.png" alt="qr" />
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/9a418125af.js" crossorigin="anonymous"></script> -->
+  </body>
+</html>
